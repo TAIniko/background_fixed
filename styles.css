@@ -1,0 +1,37 @@
+body, h1, p {
+  margin: 0;
+}
+
+.fixed-bg {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg01 {
+  background-image: url("images/nagano-The_eruption_of_Mt.Yake-s.jpg");
+  /* margin: 0; */
+}
+
+.bg02 {
+  background-image: url("images/yamagata-_Snow_Monsters_,_Zao_Onsen_Ski_Resort-s.jpg");
+}
+
+.bg-color01 {
+  /* margin: 0; */
+  background-color: black;
+  opacity: 0.8;
+}
+
+.scroll-bg-content p {
+  color: beige;
+  line-height: 2.0;
+  padding: 8% 10%;
+}
+
+.scroll-bg .scroll-bg-content {
+  width: 90%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=styles.css.map */
